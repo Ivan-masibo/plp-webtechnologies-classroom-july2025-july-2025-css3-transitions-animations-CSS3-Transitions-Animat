@@ -1,0 +1,95 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylva Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sylva Technologies</h1>
+             <!-- Part 1: CSS Animations -->
+  <button class="animated-btn">Hover Me</button>
+
+  <div class="box" id="box"></div>
+
+  <!-- Part 2 & 3: Trigger Animations with JS -->
+  <button id="animateBtn">Animate Box</button>
+  <button id="resetBtn">Reset Box</button>
+
+  <div class="card" id="card">
+    <div class="card-inner">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </div>
+  <button id="flipCardBtn">Flip Card</button>
+
+  <script src="script.js"></script>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Sylva Technologies</h2>
+            <p>Your partner in innovative tech solutions.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Sylva Technologies is a leading provider of cutting-edge technology solutions. We specialize in software development, IT consulting, and digital transformation services.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Custom Software Development</li>
+                <li>Cloud Solutions</li>
+                <li>Data Analytics</li>
+                <li>Cybersecurity</li>
+                <li>IT Consulting</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sylva Technologies. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
